@@ -1,12 +1,11 @@
 import React from 'react'
-import { Children } from 'react/cjs/react.production.min'
 import { Header } from './'
 
-const Layout = ({Children}) => {
+const Layout = ({children}) => {
     return (
         <>
             <Header/>
-            {Children}
+            {children}
         </>
     )
 }
